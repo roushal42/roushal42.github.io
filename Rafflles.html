@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Softball Organization</title>
+    <title>JCSB</title>
+    <link rel="stylesheet" href="css/css.raffle.css">
 </head>
 <body>
     <nav>
@@ -13,5 +14,36 @@
         <a href="Rafflles.html">Raffelles</a>
         <a href="MissionStatement.html" class="active" id="contact">Mission</a>
     </nav>
+    <h1>Enter for a chance to win!</h1>
+    <label for="First Name">First Name</label>
+    <input type="text" id="first">
+    <br/>
+    <label for="Last Name">Last Name</label>
+    <input type="text" id="last">
+    <br/>
+    <label for="Phone Number">Phone Number</label>
+    <input type="text" id="number">
+    <br/>
+    <label for="Email">Email</label>
+    <input type="text" id="email">
+    <br/>
+    <p>Please select shirt size!</p>
+  <input type="radio" id="size">
+  <label for="xsmall">Extra Small</label>
+  <input type="radio" id="size">
+  <label for="small">Small</label>
+  <input type="radio" id="size">
+  <label for="medium">Medium</label>
+  <input type="radio" id="size">
+  <label for="large">Large</label>
+  <input type="radio" id="size">
+  <label for="xl">Extra Large</label>
+  <br/>
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    Thank you for your entry!
+  </div>
+  <button type="submit">Submit</button>
+  <button type="reset">Clear</button>
 </body>
 </html>
