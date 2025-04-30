@@ -23,6 +23,15 @@ nav a: :hover{
     background-color:blue;
 }
 
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:gold;
+  text-align: center;
+}
 
 .center {
     display: block;
@@ -34,14 +43,17 @@ nav a: :hover{
 #insta{
     width: 50px;
     height: 50px;
+    text-align: center;
 }
 
 #facebook{
     width: 50px;
     height: 50px;
+    text-align: center;
 }
 
 #twitter{
     width: 50px;
     height: 50px;
+    text-align: center;
 }
