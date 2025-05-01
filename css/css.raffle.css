@@ -4,3 +4,32 @@
     color: white;
     margin-bottom: 15px;
 }
+
+body {
+    background-color: navy;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color:gold;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+nav a: :hover{
+    background-color:blue;
+}
