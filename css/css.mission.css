@@ -1,0 +1,45 @@
+body {
+    background-color: navy;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color:gold;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+nav a: :hover{
+    background-color:blue;
+}
+
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:gold;
+  text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%
+}
