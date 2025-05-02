@@ -27,12 +27,9 @@ nav a: :hover{
     background-color:blue;
 }
 
-<style>
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color:#a89968;
-  text-align: center;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%
 }
