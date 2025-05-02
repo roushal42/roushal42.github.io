@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: navy;
+    background-color:#1b365d ;
     color: white;
 }
 
@@ -18,7 +18,7 @@ nav {
     margin: 0;
     padding: 0;
     overflow:hidden;
-    background-color:gold;
+    background-color:#a89968;
     display: flex;
     justify-content:space-between;
 }
