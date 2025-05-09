@@ -10,14 +10,14 @@ body {
   background-color: #1b365d;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
 }
 
 h1{
-    text-align: left;
+    text-align: center;
 }
 
 nav {
