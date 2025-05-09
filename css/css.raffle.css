@@ -6,9 +6,14 @@
 }
 
 body {
-    background-color:#1b365d ;
-    color: white;
-    padding-top: 60px;
+  padding-top: 60px;
+  background-color: #1b365d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1{
@@ -18,11 +23,13 @@ h1{
 nav {
     position: fixed;
     margin: 0;
-    padding: 0;
+    left: 0;
+    width: 100%;
     overflow:hidden;
     background-color:#a89968;
     display: flex;
     justify-content:space-between;
+    z-index: 1000;
 }
 
 nav a {
@@ -44,13 +51,6 @@ nav a:hover{
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #333;
-}
 
 .container {
   position: relative;
