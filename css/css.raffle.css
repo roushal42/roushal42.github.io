@@ -69,7 +69,7 @@ nav a:hover{
     border-radius: 50%;
     z-index: 10;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     text-transform: uppercase;
     font-weight: 600;
@@ -113,7 +113,7 @@ nav a:hover{
       transform: rotate(calc(45deg * var(--i)));
       clip-path: polygon(0 0, 56% 0, 100% 100%, 0 56%);
       display: flex;
-      justify-content: center;
+      justify-content: left;
       align-items: center;
       user-select: none;
       cursor: pointer;
