@@ -23,11 +23,11 @@ nav a {
     text-decoration: none;
 }
 
-nav a: :hover{
+nav a:hover{
     background-color:blue;
 }
 
-<style>
+
 .footer {
   position: fixed;
   left: 0;
