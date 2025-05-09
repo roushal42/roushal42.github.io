@@ -33,3 +33,9 @@ nav a: :hover{
     margin-right:auto;
     width: 50%
 }
+
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+}
