@@ -22,6 +22,19 @@
     <br>
     <br>
     <img src="media/pictures/JCUPDATE.png" class="center">
+
+    <div id="game day message"> </div>
+    <script>
+        const today = new Date();
+        const dat = today.getDay (); //0 = sunday, 6= Saturday
+        const messageDiv = document.getElementById('game day message');
+
+        if(day=== 6) {
+            messageDiv.textContent = "Its Game Day! Come Support the Eagles!";
+        } else {
+            messageDiv.textContent= "No game today. Check the schedule fro upcoming games.";
+        }
+    </script>
     
     <script src="js/script.js"></script>
 
@@ -39,5 +52,6 @@
         <img src="media/pictures/twitter.png" id="twitter">
     </a>
     </div>
+
 </footer>
 </html>
