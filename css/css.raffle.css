@@ -58,7 +58,7 @@ nav a:hover{
   width: 400px;
   height: 400px;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   
   .spinBtn {
