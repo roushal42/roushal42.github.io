@@ -39,7 +39,7 @@ nav a: :hover{
     display: flex;
 }
 
-#text {
+#text1 {
     flex: 1;
     padding-right: 10%;
 }
@@ -47,4 +47,9 @@ nav a: :hover{
 #player2 {
     align-items: center;
     display:flex ;
+}
+
+#text2 {
+    flex: 1;
+    padding-right:10% ;
 }
