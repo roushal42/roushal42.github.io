@@ -58,7 +58,7 @@ nav a:hover{
   width: 400px;
   height: 400px;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   
   .spinBtn {
@@ -69,7 +69,7 @@ nav a:hover{
     border-radius: 50%;
     z-index: 10;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     text-transform: uppercase;
     font-weight: 600;
@@ -113,7 +113,7 @@ nav a:hover{
       transform: rotate(calc(45deg * var(--i)));
       clip-path: polygon(0 0, 56% 0, 100% 100%, 0 56%);
       display: flex;
-      justify-content: left;
+      justify-content: center;
       align-items: center;
       user-select: none;
       cursor: pointer;
