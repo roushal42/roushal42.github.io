@@ -34,8 +34,12 @@ nav a: :hover{
     width: 50%
 }
 
-.container {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 10px;
+#player1 {
+    align-items: center;
+    display: flex;
+}
+
+#text {
+    flex: 1;
+    padding-right: 10%;
 }
