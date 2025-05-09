@@ -43,3 +43,8 @@ nav a: :hover{
     flex: 1;
     padding-right: 10%;
 }
+
+#player2 {
+    align-items: center;
+    display:flex ;
+}
